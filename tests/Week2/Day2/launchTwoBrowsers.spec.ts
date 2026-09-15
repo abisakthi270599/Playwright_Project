@@ -16,7 +16,6 @@ test('Launch Red Bus in an Edge browser', async () => {
     const url = edgepage.url()
     console.log("Red Bus Title :", await edgepage.title());
     console.log("Red Bus URL: ", edgepage.url());
-    await edgeBrowser.close()
 });
 
 //Flipkart in Webkit Browser
@@ -28,5 +27,4 @@ test('Launch Flipkart in a Webkit browser', async () => {
     const url = webkitpage.url()
     console.log("Flipkart Title :", await webkitpage.title());
     console.log("Flipkart URL: ", webkitpage.url());
-    await webkitBrowser.close()
 });
