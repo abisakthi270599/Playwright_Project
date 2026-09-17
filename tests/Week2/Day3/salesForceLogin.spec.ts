@@ -8,5 +8,6 @@ test('Create Lead', async ({page})=> {
     await page.locator("#Login").click();
     await page.locator("#password").fill("TestLeaf@2025");
     await page.locator("#Login").click();
-   
+    const title = await page.title();
+    console.log("Page Title: " + title);
 });
