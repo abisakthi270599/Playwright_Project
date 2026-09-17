@@ -1,4 +1,4 @@
-import{test, chromium, expect} from "@playwright/test"
+import{test, expect} from "@playwright/test"
 
 test('Create Lead', async ({page})=> {
 
